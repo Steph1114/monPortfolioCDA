@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Stephan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav">
+            <li> <a href="#a_propos" class="nav-link" id="nav-logo"> Stephan CELESTIN R.</a></li>
+            <li> <a href="#a_propos" class="nav-link">A PROPOS</a> </li>
+            <li class="dropdown">
+                <a href="#veille_techno" class="nav-link">VEILLES TECHNOLOGIQUES</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://cda.needemand.com/2021/10/31/css-pseudo-classes-has-is-and-where/" target="_blank">Pseudo-classes: :has, :is, :where()</a>
+                    <a href="https://cda.needemand.com/2021/12/05/velocity-js/" target="_blank">Velocity.js</a>
+                    <a href="#">Java related</a>
+                    <a href="#">Other topics</a>
+                </div>
+            </li>
+            <li class="dropdown"> <a href="#mesRealisations" class="nav-link">REALISATIONS</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#realisations_css_html">HTML / CSS</a>
+                    <a href="#realisations_javascript">JAVASCRIPT</a>
+                    <a href="#">JAVA</a>
+                    <a href="#">Other programming language</a>
+                </div>
+            </li>
+            <li> <a href="#contacts" class="nav-link">CONTACT</a> </li>
+        </ul>
+    </nav>
+
+    <section class="showcase">
+        <div class="container">
+            <div class="welcome">
+                <h2></h2>
+                <h1 class="mon-nom"></h1>
+            </div>
+            <div class="formation pad-10">
+                <h2>En formation : Titre Professionnel Conception et Developpement d'Applications</h2>
+            </div>
+            <div class="email pad-10">
+                <p>
+                    <img src="img/mail_symbole.jpg" alt="mail" class="scale" style="width: 30px; height: 30px;">
+                    <a href="mailto:celestin.stephan@gmail.com" class="scale">Stephan Celestin</a>
+                </p>
+            </div>
+        </div>
+        <div class="flex-content-items-center">
+            <p>J’espère que vous aimez votre visite ! Cela a l’air assez rudimentaire pour l’instant mais cela va s’améliorer. Promis !</p>
+        </div>
+    </section>
+
+
+    <main>
+        <section class="section-presentation pad-10" id="a_propos">
+            <div class="photo pad-10 flex-content-items-center">
+                <img src="img/photo_profil.jpg" width="400px" alt="ma_photo">
+            </div>
+            <div class="text-accueil pad-10 display-flex-column-content-items-center">
+                <h4>A PROPOS DE MOI</h4>
+                <p>En formation au GRETA Montpellier pour préparer mon titre professionnel de CDA, je suis actuellement en recherche de stage. Ce stage non rémunéré durera 2 fois 5 semaines du 21 février au 25 mars puis du 11 avril au 16 mai prochain. <br><br>Issue
+                    d'une formation en agro-alimentaire, j'ai souhaité me reconvertir professionnellement vers le secteur du numérique à la suite de mes nombreuses recherches sur le métier de développeur informatique.
+                    <br> <br> A ce stade de ma formation, j’ai déjà étudié les langages front-end : HTML, CSS, Bootstrap, JAVASCRIPT avec l’éditeur Visual Code. J'ai egalement utilisé les frameworks tels que : Boostrap, JQuery, Materialize et les logiciels
+                    draw.io, figma, looping-mcd, FileZilla, Wordpress, Fetch. J'ai commencé à étudier egalement un langage back-end qui est JAVA.
+                    <br> Le metier de programmeur offre des évolutions de carrière et me permet de renouveler mon profil professionnel pour rester toujours dans l’action et l’innovation. Je suis conscient que c’est un défi.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-comp">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s6"><a class="active" href="#onglet-competence">Experiences Profesionnelles / Competences</a></li>
+                        <li class="tab col s6"><a href="#onglet-formation">Formation</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row contenant-competence pad-10">
+                <div id="onglet-competence" class="col s12">
+                    <img src="img/html5.png" width="200px" height="150px" alt="" class="html-icon">
+                    <img src="img/css3.png" width="200px" height="150px" alt="" class="css-icon">
+                    <img src="img/javascript.png" width="200px" height="150px" alt="" class="js-icon">
+                    <img src="img/java.png" width="200px" height="150px" alt="" class="java-icon">
+                    <div class="grid-a1">
+                        <h5>Maquette / Storyboard / Wireframe</h5>
+                    </div>
+                    <div class="grid-b1">
+                        <h5>Git / GitHub</h5>
+                    </div>
+                    <div class="grid-c1">
+                        <h5>MySQL (phpMyAdmin)</h5>
+                    </div>
+                    <div class="grid-d1">
+                        <h5>VSCode / Eclipse</h5>
+                    </div>
+                    <div class="texte-un">
+                        <span> <b>2014 - 2020</b> </span><br>
+                        <p>Responsable technique des essais BPE et amélioration continue à Staphyt - Marsillargues</p>
+                    </div>
+                    <div class="texte-deux">
+                        <span> <b>2012 - 2014</b> </span><br>
+                        <p>Assistant de directeur Qualité et Amélioration Continue à la Maison de Cognac Louis Royer</p>
+                    </div>
+                    <div class="texte-trois">
+                        <span> <b>Avril Septembre 2012</b> </span><br>
+                        <p>Stage industriel de fin d’études à la Maison de Cognac Louis Royer</p>
+                    </div>
+                    <div class="texte-quatre">
+                        <span> <b>Mai - Aout 2011</b> </span><br>
+                        <p>Stage recherche dans un laboratoire de Cape Peninsula University of Technology - Cape Town Afrique du Sud</p>
+                    </div>
+                </div>
+                <div id="onglet-formation" class="col s12">
+                    <h3>DIPLOMES ET FORMATIONS</h3>
+                    <div class="diplome-formation">
+                        <div class="date-un">
+                            <p>2021 – 2022 </p>
+                        </div>
+                        <div class="texte-un">
+                            <p>Formation Concepteur Développeur d’Applications (CDA), Titre professionnel niveau Bac+3, Greta Montpellier Littoral </p>
+                        </div>
+                        <div class="date-deux">
+                            <p>2009 - 2012 </p>
+                        </div>
+                        <div class="texte-deux">
+                            <p>Diplôme de Master Agroalimentaire à Agro Sup Dijon et ESIROI (Ecole Supérieur d’ingénieurs Réunion Océan Indien) </p>
+                        </div>
+                        <div class="date-trois">
+                            <p>2007 - 2009 </p>
+                        </div>
+                        <div class="texte-trois">
+                            <p>BTS ABM (Brevet de Technicien Supérieur en Analyses Biologiques et Médicales), La Réunion </p>
+                        </div>
+                        <div class="date-quatre">
+                            <p>2006- 2007 </p>
+                        </div>
+                        <div class="texte-quatre">
+                            <p>Diplôme de Baccalauréat option scientifique « S », Mention « Bien »</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="mon-cv pad-10">
+                <button> <a class="link-info" id="mesBoutons" data-position="top" data-tooltip="Cliquer pour aller plus loin" href="resume/CV_Stephan.pdf" target="_blank">Mon CV</a></button>
+
+            </div>
+        </section>
+
+        <section class="section-veille pad-10" id="veille_techno">
+            <div class="veille pad-10">
+                <div class="photo-veille">
+                    <h4>MES VEILLES TECHNOLOGIQUES</h4>
+                    <img src="img/code.jpg" width="400px" height="400px" alt="veille">
+                </div>
+                <div class="liste-veille">
+                    <h5> <a href="https://cda.needemand.com/2021/10/31/css-pseudo-classes-has-is-and-where/" target="_blank">Pseudo-classes: :has(), :is(), :where()</a>
+                    </h5>
+                    <h5> <a href="https://cda.needemand.com/2021/12/05/velocity-js/" target="_blank">Velocity.js</a>
+                    </h5>
+                    <h5><a href="#" target="_blank">Java related</a></h5>
+                    <h5><a href="#" target="_blank">Other topic</a></h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-realisations" id="mesRealisations">
+            <h4>REALISATIONS</h4>
+            <h5 id="realisations_css_html">HTML / CSS</h5>
+            <div class="row g-0">
+                <div class="html-css d-flex justify-content-center">
+                    <div class="verticalaccordion w-50">
+                        <ul>
+                            <li>
+                                <h3>Vue synoptique de l'emploi du temps</h3>
+                                <div>
+                                    Reproduire avec html (avec balise table) et css une vue synoptique des fiches de competences professionnelles pour la formation CDA. Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Figure Geometrique (Grid)</h3>
+                                <div>
+                                    Reproduire avec grid (html et css) une figure geometrique agencée en mansory. Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3>WWF</h3>
+                                <div>
+                                    Reproduire la partie du site de <a href="https://www.wwf.fr/agir-au-quotidien">WWF</a> avec grid (html et css). Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Jeux de Dames</h3>
+                                <div>
+                                    Reproduire le plateau de jeu en HTML et CSS. Cet exercice peut-être une base pour un vrai jeu de dames. Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Ecosia</h3>
+                                <div>
+                                    Reproduire la partie du site d'<a href="https://www.ecosia.org/">Ecosia</a> qui a été sélectionnée en HTML, CSS. Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Marmiton</h3>
+                                <div>Reproduire une petite partie du site de <a href="https://www.marmiton.org/">Marmiton</a> au plus proche surtout les effets : arrondi, shadow,...Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3> Windows (Mansory Layout)</h3>
+                                <div>Reproduire de façon schématique le menu de Windows. Ce style s’appelle “Masonry” et est souvent utilisé pour les galeries. Il fallait utiliser du grid pour positionner les cases. Cliquez sur le bouton ci-dessous.
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Star Trek</h3>
+                                <div>Le projet etait de refaire un site de <a href="https://www.syti.net/StarTrek.html">Star trek</a> dont le design datait une peu, sur Boostrap et en le rendant plus "responsive" et moderne
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="realisation-links">
+                            <div class="first-row-realisation-links">
+                                <button> <a class="link-info" id="mesBoutons" href="https://razafiasimanana.needemand.com/vue-synoptique/" target="_blank">Vue synoptique</a></button>
+                                <button><a class="link-info" id="mesBoutons" href="https://razafiasimanana.needemand.com/figure_geometrique/" target="_blank">Figure Geometrique</a></button>
+                                <button> <a class="link-info" id="mesBoutons" href="https://razafiasimanana.needemand.com/wwf/" target="_blank">WWF</a></button>
+                                <button><a class="link-info" id="mesBoutons"  href="https://razafiasimanana.needemand.com/jeux-de-dames/" target="_blank">Jeux de Dames</a></button>
+                            </div>
+                            <div class="second-row-realisation-links">
+                                <button> <a class="link-info" id="mesBoutons" href="https://razafiasimanana.needemand.com/ecosia/" target="_blank">Ecosia</a></button>
+                                <button><a class="link-info" id="mesBoutons" href="https://razafiasimanana.needemand.com/marmiton/" target="_blank">Marmiton</a></button>
+                                <button> <a class="link-info" id="mesBoutons" href="https://razafiasimanana.needemand.com/windows/" target="_blank"> Windows (Mansory Layout)</a></button>
+                                <button><a class="link-info" id="mesBoutons"  href="https://razafiasimanana.needemand.com/star-trek/" target="_blank">Star Trek</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-50">
+
+                        <div id="slideshow-example" data-component="slideshow">
+                            <div role="list">
+                                <div class="slide">
+                                    <img src="img/vue-synoptique-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Vue synoptique de competences</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/figure-geometrique-grid-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Figure Geometrique</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/wwf-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>WWF</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/jeu-de-dames-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Jeux de Dames</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/ecosia-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Ecosia</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/marmiton-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Marmiton</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/windows-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Windows(mansory)</h5>
+                                </div>
+                                <div class="slide">
+                                    <img src="img/star-trek-snipet.jpg" style="width:100%; height: 500px">
+                                    <h5>Star Trek</h5>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h5 class="realisations_javascript">JAVASCRIPT / JAVA </h5>
+            <div class="row g-0">
+                <div class="js-java col-md-12 justify-content-center g-0">
+
+                    <div class="col-md-4 mx-2 px-2">
+                        <!-- Card flip-->
+                        <div class="card card-flip h-100">
+                            <!-- front -->
+                            <div class="card-front bg-white">
+                                <div class="card-body p-0">
+                                    <img src="img/audio1-player-snipet.jpg" class="w-100 b-radius" alt="projet-js">
+                                    <h4 class="card-title text-center p-3">Player Audio</h4>
+                                    <div class="text-center">
+                                        <p class="p-3">Un player audio permettant de jouer de la musique essentiellement en .mp3. Ce lecteur doit de manière générale pouvoir jouer de la musique, être mis en pause, être mis en arrêt, passé à la musique précédente et
+                                            suivante. On doit egalement pouvoir régler le volume et afficher le titre de la chanson.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Back -->
+                            <div class="card-back bg-white">
+                                <div class="card-body display-flex-column-content-items-center">
+                                    <h4 class="card-title text-center">Description</h4>
+                                    <p class="card-text p-3">Pour réaliser ce lecteur, il fallait pouvoir maquetter l'application, schématiser les cas d'utilisation et faire un storyboard. Il fallait ensuite coder via HTML/CSS et gérer les événements et manipuler le DOM en Javascript.
+                                        Il doit pouvoir lire plusieurs musiques (via les bouttons précédent / suivant)
+                                    </p>
+                                    <button id="mesBoutons" class="card-button col-4"> <a href="https://razafiasimanana.needemand.com/audio/" target="_blank">Plus d'infos</a> </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mx-2 px-2">
+                        <!-- Card flip-->
+                        <div class="card card-flip h-100">
+                            <!-- front -->
+                            <div class="card-front bg-white">
+                                <div class="card-body p-0">
+                                    <img src="img/pc6.jpg" class="w-100 b-radius" alt="projet-java">
+                                    <h4 class="card-title text-center p-3">Autre Projet en Java</h4>
+                                    <div class="text-center">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam obcaecati suscipit? Eveniet nulla harum facere a veritatis quis iste laborum perspiciatis nesciunt? Dicta voluptates quia laudantium consequuntur
+                                            corporis quas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Back -->
+                            <div class="card-back bg-white">
+                                <div class="card-body display-flex-column-content-items-center">
+                                    <h4 class="card-title text-center">Description</h4>
+                                    <p class="card-text p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At harum excepturi eaque quidem quos possimus ea illo sunt dicta quas quae dolorum accusantium animi, architecto consequuntur ratione pariatur magni veniam.</p>
+                                    <div id="mesBoutons" class="card-button text-center col-4">Plus d'infos</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-contact pad-10 display-flex-column-content-items-center" id="contacts">
+            <h4>
+                CONTACT
+            </h4>
+            <div class="prenons-contact pad-10 display-flex-column-content-items-center">
+                <h5>Rentrons en CONTACT</h5>
+                <p>
+                    Auriez-vous des questions quelconques ? Ou tout simplement vous voudriez dire bonjour ? N'hésitez surtout pas !
+                </p>
+
+                <button id="mesBoutons"><a href="mailto:celestin.stephan@gmail.com">Venez dire un petit Bonjour !</a></button>
+            </div>
+        </section>
+
+        <div class="pointer-main">
+            <a href="#" class="pointer-main"> <img src="img/hand pointer.png" alt="pointer"></a>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-content display-flex">
+            <h5>Copyright &copy; 2021. Tous les droits reservés | Crée et Conçu par Stephan CELESTIN R. </h5>
+        </div>
+        <div class="liens-sociaux display-flex">
+            <a href="https://github.com/Steph1114" target="_blank"> <img src="img/github-logo.jpg" width="50px" height="50px" alt="logo_github"> GitHub de Stephan </a>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="main.js"></script>
+
+</html>
